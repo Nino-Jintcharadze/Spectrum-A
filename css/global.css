@@ -1,0 +1,168 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: url("../fonts/BPGArial.woff2") format("woff2"), url("../fonts/BPGArial.woff") format("woff"), url("../fonts/BPGArial.ttf") format("truetype"), url("../fonts/BPGArial.svg#BPGArial") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Glaho';
+  src: url("../fonts/BPGGlaho.woff2") format("woff2"), url("../fonts/BPGGlaho.woff") format("woff"), url("../fonts/BPGGlaho.ttf") format("truetype"), url("../fonts/BPGGlaho.svg#BPGGlaho") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sylfaen';
+  src: url("../fonts/Sylfaen.woff2") format("woff2"), url("../fonts/Sylfaen.woff") format("woff"), url("../fonts/Sylfaen.ttf") format("truetype"), url("../fonts/Sylfaen.svg#Sylfaen") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ingiri';
+  src: url("../fonts/BPGIngiriArial.woff2") format("woff2"), url("../fonts/BPGIngiriArial.woff") format("woff"), url("../fonts/BPGIngiriArial.ttf") format("truetype"), url("../fonts/BPGIngiriArial.svg#BPGIngiriArial") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.hdr-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #081526;
+}
+
+.nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-li {
+  margin: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F6E1C6;
+  padding: 10px;
+}
+
+.nav-a {
+  font-family: 'Ingiri';
+  color: #F6E1C6;
+  font-size: 18px;
+}
+
+.burger {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  padding: 10px;
+  font-size: 30px;
+  display: none;
+  color: #c2c5aa;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .hdr-wraper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav-ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav-li {
+    text-align: center;
+  }
+  .navbar.active {
+    display: block;
+  }
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner-img {
+  width: 100%;
+}
+/*# sourceMappingURL=global.css.map */
