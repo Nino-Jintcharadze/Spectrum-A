@@ -114,6 +114,10 @@ a {
   font-size: 18px;
 }
 
+.hdr-wraper .nav-ul .nav-li .nav-a:hover {
+  color: #D9A648;
+}
+
 .hdr-wraper .logo {
   font-size: 24px;
   color: #F6E1C6;
@@ -340,6 +344,10 @@ a {
   color: #F6E1C6;
   font-family: 'Ingiri';
   font-size: 18px;
+}
+
+.ftr-wraper .ftr-ul .ftr-li .ftr-a:hover {
+  color: #D9A648;
 }
 
 @media (max-width: 1200px) {

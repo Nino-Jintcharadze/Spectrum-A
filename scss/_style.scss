@@ -12,6 +12,9 @@
                 font-family: 'Ingiri';
                 color: $hdr-ftr-color;
                 font-size: 18px;
+                &:hover {
+                    color: #D9A648;
+                }
             }
         }
     }
@@ -52,9 +55,6 @@
     @include d-flex(flex, space-around);
     flex-direction: column;
     align-items: center;
-    .animation {
-        
-    }
     .article2 {
         display: flex;
         max-width: 900px;
@@ -166,6 +166,9 @@
                 color: $hdr-ftr-color;
                 font-family: 'Ingiri';
                 font-size: 18px;
+                &:hover {
+                    color: #D9A648;
+                }
             }
         }
     }
