@@ -26,6 +26,22 @@
         display: block;
     }
 }
+@media (max-width: 670px) {
+    .articles-section2 {
+        .article2 {
+        @include d-flex(flex, space-around);
+        flex-wrap: wrap;
+        max-width: 350px;
+        width: 100%;
+        .first-p {
+            text-align: center;
+        }
+        .sec-p {
+            display: none;
+        }
+    }
+    }
+}
 @media (max-width: 580px) {
     .hdr-wraper {
         .logo {

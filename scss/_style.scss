@@ -44,17 +44,61 @@
 
 // content
 .articles-section {
-    @include d-flex(flex, space-around);
+   @include d-flex(flex, space-around);
     flex-wrap: wrap;
+}
+.articles-section2 {
+    padding-top: 30px;
+    @include d-flex(flex, space-around);
+    flex-direction: column;
+    align-items: center;
+    .article2 {
+        display: flex;
+        max-width: 900px;
+        width: 100%;
+        .first-p,
+        .sec-p {
+            font-family: 'Ingiri';
+            font-size: 14px;
+            width: 100%;
+            color: $text-color;
+        }
+    }
+    .article-banner::before {
+        content: url(../pictures/autism.png);
+        transform: scale(0.9);
+    }
+    .article-banner2::before {
+        content: url(../pictures/researchers.jpg);
+        transform: scale(0.9);
+    }
+    .article-banner3::before {
+        content: url(../pictures/genders.png);
+        transform: scale(0.9);
+    }
+    .article-banner4::before {
+        content: url(../pictures/invisible-women.png);
+        transform: scale(0.9);
+    }
+    .article-banner5::before {
+        content: url(../pictures/video-pic.png);
+        transform: scale(0.9);
+    }
+}
+.articles-section2,
+.articles-section {
     align-items: center;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     .article {
-        margin-bottom: 20px;
-        max-width: 330px;
+        max-width: 320px;
         height: 340px;
         width: 100%;
+    }
+    .article2,
+    .article {
+        margin-bottom: 20px;
         .article-img {
             width: 100%;
             height: 60%;
@@ -87,10 +131,6 @@
         }
         &:hover .article-img {
             filter: grayscale(30%);
-        }
-        &:nth-child(2) {
-            margin-right: 10px;
-            margin-left: 10px;
         }
     }
 }
