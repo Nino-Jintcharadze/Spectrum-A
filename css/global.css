@@ -311,7 +311,10 @@ a {
 }
 
 .banner-article1 {
-  width: 100%;
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 .banner-article1 .img-article-banner {
@@ -362,6 +365,7 @@ a {
   font-size: 16px;
   font-family: 'Ingiri';
   color: #1a1a1a;
+  line-height: 150%;
 }
 
 .ftr-wraper {

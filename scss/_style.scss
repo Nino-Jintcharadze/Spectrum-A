@@ -148,7 +148,10 @@
 }
 // article 1
 .banner-article1 {
-    width: 100%;
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 50px;
     .img-article-banner {
         width: 100%;
         height: auto;
@@ -189,6 +192,7 @@
             font-size: 16px;
             font-family: 'Ingiri';
             color: $text-color;
+            line-height: 150%;
     }
     } 
 }
