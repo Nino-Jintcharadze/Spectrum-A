@@ -320,7 +320,7 @@ a {
 
 .article-main {
   max-width: 1200px;
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -329,6 +329,8 @@ a {
   font-weight: bolder;
   text-align: center;
   font-family: 'Glaho';
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .article-main .p-article {
@@ -341,6 +343,7 @@ a {
   font-size: 18px;
   font-weight: bold;
   font-family: 'Glaho';
+  margin-bottom: 10px;
 }
 
 .article-main .h1-article,

@@ -155,13 +155,15 @@
 }
 .article-main {
     max-width: 1200px;
-    width: 100%;
+    width: 85%;
     margin: 0 auto;
     .h1-article {
         font-size: 22px;
         font-weight: bolder;
         text-align: center;
         font-family: 'Glaho';
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .p-article {
         font-size: 16px;
@@ -172,6 +174,7 @@
         font-size: 18px;
         font-weight: bold;
         font-family: 'Glaho';
+        margin-bottom: 10px;
     }
     .h1-article,
     .h2-article,
