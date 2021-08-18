@@ -124,8 +124,8 @@
             font-weight: bold;
             width: 100%;
             text-align: center;
-            margin-top: 10px;
-            margin-bottom: 5px;
+            margin-top: 15px;
+            margin-bottom: 30px;
             color: $text-color;
         }
         .article-text {
@@ -212,14 +212,18 @@
     @include d-flex(flex, space-around);
     background-color: #081526;
     .ftr-logo {
-        font-size: 24px;
+        width: 200px; 
         padding: 10px;
+        .logo-ftr {
+            width: 100%;
+        }
         .logo-a {
             color: $hdr-ftr-color;
         }
     }
     .ftr-ul {
         @include d-flex(flex, space-around);
+        padding-top: 10px;
         .ftr-li {
             padding: 10px;
             .ftr-a {

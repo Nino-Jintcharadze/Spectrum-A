@@ -268,8 +268,8 @@ a {
   font-weight: bold;
   width: 100%;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 30px;
   color: #1a1a1a;
 }
 
@@ -391,8 +391,12 @@ a {
 }
 
 .ftr-wraper .ftr-logo {
-  font-size: 24px;
+  width: 200px;
   padding: 10px;
+}
+
+.ftr-wraper .ftr-logo .logo-ftr {
+  width: 100%;
 }
 
 .ftr-wraper .ftr-logo .logo-a {
@@ -405,6 +409,7 @@ a {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  padding-top: 10px;
 }
 
 .ftr-wraper .ftr-ul .ftr-li {
