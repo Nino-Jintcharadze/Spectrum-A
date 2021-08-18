@@ -9,7 +9,7 @@
 	.st3{fill:none;stroke:#F6E1C6;stroke-miterlimit:10;}
 	.st4{display:none;fill:none;stroke:#F6E1C6;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st5{fill:none;stroke:#F6E1C6;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#F6E1C6;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st6{display:none;fill:none;stroke:#F6E1C6;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
 <rect x="-142.9" y="-443" class="st0" width="1000" height="1000"/>
 <g class="st1">
