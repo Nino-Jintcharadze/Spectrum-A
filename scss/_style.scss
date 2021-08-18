@@ -12,6 +12,7 @@
                 font-family: 'Ingiri';
                 color: $hdr-ftr-color;
                 font-size: 18px;
+                text-decoration: none;
                 &:hover {
                     color: #D9A648;
                 }
@@ -145,7 +146,47 @@
         }
     }
 }
-
+// article 1
+.banner-article1 {
+    width: 100%;
+    .img-article-banner {
+        width: 100%;;
+    }
+}
+.article-main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    .h1-article {
+        font-size: 22px;
+        font-weight: bolder;
+        text-align: center;
+        font-family: 'Glaho';
+    }
+    .p-article {
+        font-size: 16px;
+        font-family: 'Ingiri';
+        font-weight: normal;
+    }
+    .h2-article {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Glaho';
+    }
+    .h1-article,
+    .h2-article,
+    .p-article {
+        color: $text-color;
+    }
+    .ul-article {
+        list-style-type: circle;
+        .li-article {
+            font-size: 16px;
+            font-family: 'Ingiri';
+            color: $text-color;
+    }
+    } 
+}
 // Footer
 .ftr-wraper {
     width: 100%;
