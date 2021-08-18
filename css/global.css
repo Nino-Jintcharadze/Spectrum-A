@@ -368,6 +368,10 @@ a {
   line-height: 150%;
 }
 
+.article-main .ul-article .li-article .li-bold {
+  font-weight: bold;
+}
+
 .ftr-wraper {
   width: 100%;
   display: -webkit-box;

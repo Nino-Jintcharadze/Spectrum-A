@@ -193,6 +193,9 @@
             font-family: 'Ingiri';
             color: $text-color;
             line-height: 150%;
+            .li-bold {
+                font-weight: bold;
+            }
     }
     } 
 }
