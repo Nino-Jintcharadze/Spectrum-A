@@ -45,15 +45,48 @@
 .banner {
     width: 100%;
     margin-bottom: 45px;
+    position: relative;
     .banner-img {
         width: 100%;
     }
+    .site-heading {
+        position: absolute;
+        top: 90%;
+        left: 45%;
+        font-family: 'Glaho';
+            font-size: 20px;
+            color: white;
+            text-align: center;
+    }
+    .banner-logo {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        width: 20%;
+        .banner-svg {
+            width: 100%;
+        }
+    }
 }
+
+// site heading
+    // .site-heading {
+    //     width: 100%;
+    //     margin-bottom: 45px;
+    //     padding: 40px;
+    //     .main-heading {
+    //         font-family: 'Glaho';
+    //         font-size: 28px;
+    //         color: #025E73;
+    //         text-align: center;
+    //     }
+    // }
 
 // content
 .articles-section {
    @include d-flex(flex, space-around);
     flex-wrap: wrap;
+    margin-top: 200px;
 }
 .articles-section2 {
     padding-top: 30px;
