@@ -390,6 +390,10 @@ a {
   font-weight: bold;
 }
 
+.article-main .ul-article .video-div {
+  width: 100%;
+}
+
 .video-div {
   max-width: 560px;
   width: 100%;
