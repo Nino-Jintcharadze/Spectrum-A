@@ -227,6 +227,14 @@
         height: 315px;
     }
 }
+
+// about 
+.article-main {
+    .animation {
+        margin-top: 20px;
+        @include d-flex(flex, space-around)
+    }
+}
 // Footer
 .ftr-wraper {
     width: 100%;
