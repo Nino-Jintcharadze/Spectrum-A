@@ -403,12 +403,15 @@ a {
 }
 
 .article-main .animation {
-  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.article-main .animation .animation-width {
+  width: 40%;
 }
 
 .ftr-wraper {
@@ -489,6 +492,12 @@ a {
   }
   .navbar.active {
     display: block;
+  }
+  .animation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 

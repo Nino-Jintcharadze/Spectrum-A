@@ -231,9 +231,11 @@
 // about 
 .article-main {
     .animation {
-        margin-top: 20px;
-        @include d-flex(flex, space-around)
-    }
+        @include d-flex(flex, space-around);
+        .animation-width {
+            width: 40%;
+        }
+     }
 }
 // Footer
 .ftr-wraper {

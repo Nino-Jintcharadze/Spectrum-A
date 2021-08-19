@@ -25,6 +25,9 @@
     .navbar.active {
         display: block;
     }
+    .animation {
+        flex-direction: column;
+    }
 }
 @media (max-width: 670px) {
     .articles-section2 {
