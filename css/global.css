@@ -141,7 +141,7 @@ a {
 
 .banner {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
 .banner .banner-img {
@@ -232,6 +232,7 @@ a {
 
 .articles-section2 .article,
 .articles-section .article {
+  background-color: #fff2fa;
   max-width: 320px;
   height: 350px;
   width: 100%;
@@ -387,6 +388,7 @@ a {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 35px;
   background-color: #081526;
 }
 

@@ -27,6 +27,7 @@
             }
         }
     }
+    
 }
 
 .burger {
@@ -43,7 +44,7 @@
 
 .banner {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     .banner-img {
         width: 100%;
     }
@@ -99,6 +100,7 @@
     width: 100%;
     margin: 0 auto;
     .article {
+        background-color: #fff2fa;
         max-width: 320px;
         height: 350px;
         width: 100%;
@@ -210,6 +212,7 @@
 .ftr-wraper {
     width: 100%;
     @include d-flex(flex, space-around);
+    margin-top: 35px;
     background-color: #081526;
     .ftr-logo {
         width: 200px; 
