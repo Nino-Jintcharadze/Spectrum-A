@@ -477,7 +477,7 @@ a {
 .contact-wraper .contact-animation .icons .youtube {
   width: 30px;
   height: 30px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .contact-wraper .contact-animation .icons .fb .icon-width,
@@ -664,6 +664,12 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .contact-wraper .contact-animation {
+    margin-top: 90px;
+  }
+  .contact-wraper .contact-animation .icons {
+    margin-top: 90px;
   }
 }
 
