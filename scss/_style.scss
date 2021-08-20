@@ -84,8 +84,8 @@
   
     .card {
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         margin-top: 10px;
         margin-right: auto;
         margin-left: auto;
@@ -117,23 +117,23 @@
     }
     
     .front {
-        background: #48a08d;
+        background: #006f85;
         border-radius: 30px;
         transform: rotateY(0deg);
         z-index: 2;
         .fact-img {
-            width: 100px;
-            height: 130px; 
+            width: 80px;
+            height: 100px; 
             margin-left: 25px;
             margin-top: 15px;
             .fact-img-width {
-                width: 100%;
+                width: 70%;
             }
         }
     }
     
     .back {
-        background: #D96B62;
+        background: #D77B7E;
         border-radius: 30px;
         transform: rotateY(-180deg);
     }
