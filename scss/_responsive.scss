@@ -61,6 +61,10 @@
             display: none;
         }
     }
+    .contact-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media (max-width: 580px) {
     .hdr-wraper {

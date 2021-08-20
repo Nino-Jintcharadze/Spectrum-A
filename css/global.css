@@ -94,8 +94,9 @@ a {
 }
 
 .hdr-wraper .logo-wraper {
-  width: 200px;
+  width: 130px;
   padding: 10px;
+  margin-top: 3px;
 }
 
 .hdr-wraper .logo-wraper .logo {
@@ -123,6 +124,7 @@ a {
   color: #F6E1C6;
   font-size: 18px;
   text-decoration: none;
+  margin-left: 15px;
 }
 
 .hdr-wraper .nav-ul .nav-li .nav-a:hover {
@@ -151,8 +153,8 @@ a {
 
 .banner .site-heading {
   position: absolute;
-  top: 90%;
-  left: 45%;
+  top: 88%;
+  left: 50%;
   font-family: 'Glaho';
   font-size: 20px;
   color: white;
@@ -258,12 +260,18 @@ a {
 .articles-section .article {
   background-color: #fff5f5;
   max-width: 320px;
-  height: 360px;
+  height: 340px;
   width: 100%;
 }
 
-.articles-section2 .article .article-img,
-.articles-section .article .article-img {
+.articles-section2 .article .article-img-width,
+.articles-section .article .article-img-width {
+  width: 80%;
+  margin: 10px auto 10px auto;
+}
+
+.articles-section2 .article .article-img-width .article-img,
+.articles-section .article .article-img-width .article-img {
   width: 100%;
 }
 
@@ -437,6 +445,99 @@ a {
   width: 40%;
 }
 
+.contact-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-wraper .contact-animation {
+  margin-top: 40px;
+}
+
+.contact-wraper .contact-animation .icons {
+  width: 130px;
+  margin: 0 auto;
+  margin-top: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: default;
+      -ms-flex-pack: default;
+          justify-content: default;
+}
+
+.contact-wraper .contact-animation .icons .fb,
+.contact-wraper .contact-animation .icons .mail,
+.contact-wraper .contact-animation .icons .youtube {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.contact-wraper .contact-animation .icons .fb .icon-width,
+.contact-wraper .contact-animation .icons .mail .icon-width,
+.contact-wraper .contact-animation .icons .youtube .icon-width {
+  width: 100%;
+}
+
+.contact-wraper .forms {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-wraper .forms #id-name,
+.contact-wraper .forms #id-last-name,
+.contact-wraper .forms #id-mail {
+  margin-top: 20px;
+  max-width: 250px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f1f0f0;
+  color: grey;
+  padding-left: 15px;
+}
+
+.contact-wraper .forms #id-question {
+  resize: none;
+  max-width: 250px;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f1f0f0;
+  color: grey;
+  padding-left: 15px;
+}
+
+.contact-wraper .forms .btn {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 35px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#94bbe9), to(#eeaeca));
+  background-image: linear-gradient(to right, #94bbe9, #eeaeca);
+  font-weight: bold;
+  color: #3d3d3d;
+}
+
 .ftr-wraper {
   width: 100%;
   display: -webkit-box;
@@ -449,8 +550,9 @@ a {
 }
 
 .ftr-wraper .ftr-logo {
-  width: 200px;
+  width: 140px;
   padding: 10px;
+  margin-top: 3px;
 }
 
 .ftr-wraper .ftr-logo .logo-ftr {
@@ -553,6 +655,15 @@ a {
   }
   .banner .site-heading {
     display: none;
+  }
+  .contact-wraper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

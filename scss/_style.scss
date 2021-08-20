@@ -4,8 +4,9 @@
     @include d-flex(flex, space-around);
     background-color: #081526;
     .logo-wraper {
-        width: 200px; 
+        width: 130px; 
         padding: 10px;
+        margin-top: 3px;
         .logo {
             width: 100%;
         }
@@ -21,6 +22,7 @@
                 color: $hdr-ftr-color;
                 font-size: 18px;
                 text-decoration: none;
+                margin-left: 15px;
                 &:hover {
                     color: #D9A648;
                 }
@@ -51,8 +53,8 @@
     }
     .site-heading {
         position: absolute;
-        top: 90%;
-        left: 45%;
+        top: 88%;
+        left: 50%;
         font-family: 'Glaho';
             font-size: 20px;
             color: white;
@@ -69,18 +71,6 @@
     }
 }
 
-// site heading
-    // .site-heading {
-    //     width: 100%;
-    //     margin-bottom: 45px;
-    //     padding: 40px;
-    //     .main-heading {
-    //         font-family: 'Glaho';
-    //         font-size: 28px;
-    //         color: #025E73;
-    //         text-align: center;
-    //     }
-    // }
 
 // content
 .articles-section {
@@ -136,10 +126,14 @@
     .article {
         background-color: #fff5f5;
         max-width: 320px;
-        height: 360px;
+        height: 340px;
         width: 100%;
-        .article-img {
-            width: 100%;
+        .article-img-width {
+            width: 80%;
+            margin: 10px auto 10px auto;
+            .article-img {
+                width: 100%;
+            }
         }
     }
     .article2 {
@@ -272,6 +266,76 @@
         }
      }
 }
+
+// contact page 
+.contact-wraper {
+    @include d-flex(flex, space-around);
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    .contact-animation {
+        margin-top: 40px;
+        .icons {
+            width: 130px;
+            margin: 0 auto;
+            margin-top: 160px;
+            @include d-flex(flex, default);
+            .fb,
+            .mail,
+            .youtube {
+                width: 30px;
+                height: 30px;
+                margin-left: 10px;
+                .icon-width {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .forms {
+        margin-top: 40px;
+        @include d-flex(flex, space-between);
+        flex-direction: column;
+        #id-name,
+        #id-last-name,
+        #id-mail {
+            margin-top: 20px;
+            max-width: 250px;
+            width: 100%;
+            height: 30px;
+            border: none;
+            border-radius: 20px;
+            background-color: $form-color-bg;
+            color: grey;
+            padding-left: 15px;
+        }
+
+        #id-question {
+            resize: none;
+            max-width: 250px;
+            width: 100%;
+            margin-top: 20px;
+            border: none;
+            border-radius: 12px;
+            background-color: $form-color-bg;
+            color: grey;
+            padding-left: 15px;
+        }
+        .btn {
+            margin-top: 20px;
+            width: 100px;
+            height: 30px;
+            border: none;
+            border-radius: 35px;
+            background-image: linear-gradient(
+                to right, #94bbe9, #eeaeca
+            );
+            font-weight: bold;
+            color: rgb(61, 61, 61);
+        }
+    }
+}
+
 // Footer
 .ftr-wraper {
     width: 100%;
@@ -279,8 +343,9 @@
     margin-top: 35px;
     background-color: #081526;
     .ftr-logo {
-        width: 200px; 
+        width: 140px; 
         padding: 10px;
+        margin-top: 3px;
         .logo-ftr {
             width: 100%;
         }
