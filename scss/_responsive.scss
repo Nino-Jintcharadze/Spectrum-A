@@ -74,6 +74,14 @@
         }
     }
 }
+@media (max-width: 657px) {
+    .container {
+        flex-direction: column;
+        .card {
+            height: 300px;
+        }
+    }
+}
 @media (max-width: 618px) {
     .container {
         margin-bottom: 150px;
