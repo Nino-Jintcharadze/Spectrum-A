@@ -48,13 +48,13 @@
         flex-wrap: wrap;
         max-width: 320px;
         width: 100%;
-        .first-p {
-            text-align: center;
+            .first-p {
+                text-align: center;
+            }
+            .sec-p {
+                display: none;
+            }
         }
-        .sec-p {
-            display: none;
-        }
-    }
     }
     .banner {
         .site-heading {
@@ -77,16 +77,11 @@
 @media (max-width: 657px) {
     .container {
         flex-direction: column;
-        .card {
-            height: 300px;
-        }
+        height: 600px;
+        margin-bottom: 40px;
     }
 }
-@media (max-width: 618px) {
-    .container {
-        margin-bottom: 150px;
-    }
-}
+
 @media (max-width: 580px) {
     .hdr-wraper {
         .logo {
@@ -108,10 +103,4 @@
         }
     }
 
-}
-
-@media (max-width: 418px) {
-    .container {
-        margin-bottom: 300px;
-    }
 }
