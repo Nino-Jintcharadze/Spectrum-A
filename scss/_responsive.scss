@@ -74,6 +74,11 @@
         }
     }
 }
+@media (max-width: 618px) {
+    .container {
+        margin-bottom: 150px;
+    }
+}
 @media (max-width: 580px) {
     .hdr-wraper {
         .logo {
@@ -95,4 +100,10 @@
         }
     }
 
+}
+
+@media (max-width: 418px) {
+    .container {
+        margin-bottom: 300px;
+    }
 }
