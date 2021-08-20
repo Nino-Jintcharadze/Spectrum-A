@@ -270,7 +270,7 @@
 // contact page 
 .contact-wraper {
     @include d-flex(flex, space-around);
-    max-width: 1000px;
+    max-width: 1050px;
     width: 100%;
     margin: 0 auto;
     .contact-animation {
@@ -308,9 +308,11 @@
             background-color: $form-color-bg;
             color: grey;
             padding-left: 15px;
+            outline: none;
         }
 
         #id-question {
+            outline: none;
             resize: none;
             max-width: 250px;
             width: 100%;
@@ -322,7 +324,7 @@
             padding-left: 15px;
         }
         .btn {
-            margin-top: 20px;
+            margin-top: 40px;
             width: 100px;
             height: 30px;
             border: none;
