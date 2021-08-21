@@ -40,6 +40,11 @@
             font-size: 12px;
         }
     }
+    .container {
+        flex-direction: column;
+        height: 600px;
+        margin-bottom: 40px;
+    }
 }
 @media (max-width: 670px) {
     .articles-section2 {
@@ -72,13 +77,6 @@
                 margin-top: 90px;
             }
         }
-    }
-}
-@media (max-width: 657px) {
-    .container {
-        flex-direction: column;
-        height: 600px;
-        margin-bottom: 40px;
     }
 }
 

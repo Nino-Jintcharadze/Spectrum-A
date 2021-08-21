@@ -742,6 +742,14 @@ a {
   .banner .site-heading {
     font-size: 12px;
   }
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 600px;
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 670px) {
@@ -779,17 +787,6 @@ a {
   }
   .contact-wraper .contact-animation .icons {
     margin-top: 90px;
-  }
-}
-
-@media (max-width: 657px) {
-  .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 600px;
-    margin-bottom: 40px;
   }
 }
 
