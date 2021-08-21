@@ -247,6 +247,7 @@ a {
   height: 165px;
   text-align: center;
   margin-left: -8%;
+  line-height: 120%;
 }
 
 .container .card:hover {
