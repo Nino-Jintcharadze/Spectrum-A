@@ -53,14 +53,6 @@ a {
 }
 
 @font-face {
-  font-family: 'Arial';
-  src: url("../fonts/BPGArial.woff2") format("woff2"), url("../fonts/BPGArial.woff") format("woff"), url("../fonts/BPGArial.ttf") format("truetype"), url("../fonts/BPGArial.svg#BPGArial") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Glaho';
   src: url("../fonts/BPGGlaho.woff2") format("woff2"), url("../fonts/BPGGlaho.woff") format("woff"), url("../fonts/BPGGlaho.ttf") format("truetype"), url("../fonts/BPGGlaho.svg#BPGGlaho") format("svg");
   font-weight: normal;
